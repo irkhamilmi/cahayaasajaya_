@@ -1,13 +1,20 @@
-import Brand from "../components/brand/Brand";
-import Footer from "../components/footer/Footer";
-
+import CardBrand from "../components/cards/CardBrand";
+import CardCategory from "../components/cards/CardCategory";
+import CardLong from "../components/cards/CardLong";
 
 function Home() {
   return (
-    <>
-      <Brand />
-      <Footer/>
-    </>
+    <div className="container-md">
+      <section>
+        <CardBrand />
+      </section>
+      <section>
+        <CardCategory />
+      </section>
+      <section>
+        <CardLong />
+      </section>
+    </div>
   );
 }
 

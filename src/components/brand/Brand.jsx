@@ -1,6 +1,10 @@
+import CardBrand from "../cards/CardBrand"
+
 function Brand() {
   return (
-    <div>Brand</div>
+    <>
+    <CardBrand/>
+    </>
   )
 }
 
