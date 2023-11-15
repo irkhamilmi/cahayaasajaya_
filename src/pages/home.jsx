@@ -6,10 +6,15 @@ import CardLong from "../components/cards/CardLong";
 import katefori from "../constant/kategori";
 import brand from "../constant/brand";
 import TitleSection from "../components/title/TitleSection";
+import Hero from "../components/hero/Hero"
 
 function Home() {
   return (
+    <>
     <div className="container-md">
+      <section>
+      <Hero />
+      </section>
       <section>
         <TitleSection text="BRANDS" />
         <Row>
@@ -32,6 +37,7 @@ function Home() {
         <CardLong />
       </section>
     </div>
+    </>
   );
 }
 

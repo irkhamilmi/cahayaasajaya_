@@ -2,6 +2,7 @@ import propTypes from "prop-types";
 
 function CardBrand({image}) {
   return (
+    <>
     <div
       className="card text-black m-2 p-4 shadow rounded border-0"
       style={{ width: "240px", cursor: "pointer" }}
@@ -13,6 +14,7 @@ function CardBrand({image}) {
       />
     
     </div>
+    </>
   )
 }
 
