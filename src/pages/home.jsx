@@ -9,7 +9,7 @@ import TitleSection from "../components/title/TitleSection";
 
 function Home() {
   return (
-    <div className="container-md">
+    <div className="container">
       <section>
         <TitleSection text="BRANDS" />
         <Row>

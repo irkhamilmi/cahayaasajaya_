@@ -1,12 +1,15 @@
 function cardLong() {
   return (
     <>
-      <div className="card w-full">
+      <div
+        className="card border-0 p-5"
+        style={{ width: "100%", borderRadius: "20px", background: "#F1F5F9" }}
+      >
         <div className="card-body">
           <div className="row">
             <div className="col-sm-7">
-              <h2 className="card-title">Gratis Konsultasi</h2>
-              <p className="card-text">
+              <h2 className="card-title font-weight-bold">Gratis Konsultasi</h2>
+              <p className="card-text p-0 m-0">
                 Punya pertanyaan seputar produk material bangunan?
               </p>
               <p>
@@ -17,9 +20,13 @@ function cardLong() {
             <div className="col-sm-5">
               <a
                 href="#"
-                className="btn btn-primary btn-lg active"
+                className="btn btn-lg active text-white"
                 role="button"
                 aria-pressed="true"
+                style={{
+                  borderRadius: "30px",
+                  background: "#4D4DAB",
+                }}
               >
                 Hubungi Kami
               </a>

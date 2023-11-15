@@ -1,23 +1,22 @@
 import propTypes from "prop-types";
 
-function CardBrand({image}) {
+function CardBrand({ image }) {
   return (
     <div
-      className="card text-black m-2 p-4 shadow rounded border-0"
-      style={{ width: "240px", cursor: "pointer" }}
+      className="card text-black m-2 p-4 shadow border-0"
+      style={{ width: "240px", cursor: "pointer", borderRadius: "16px" }}
     >
       <img
         className="card-img m-0 p-0 w-100 h-100"
         src={image}
         alt="Card image"
       />
-    
     </div>
-  )
+  );
 }
 
 CardBrand.propTypes = {
-    image:propTypes.string
-}
+  image: propTypes.string,
+};
 
-export default CardBrand
+export default CardBrand;
