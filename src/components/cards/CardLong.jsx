@@ -17,7 +17,7 @@ function cardLong() {
                 Anda
               </p>
             </div>
-            <div className="col-sm-5">
+            <div className="col-sm-5 my-auto  ">
               <a
                 href="#"
                 className="btn btn-lg active text-white"
