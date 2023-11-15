@@ -1,7 +1,8 @@
-function Footer() {
+const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>footer</div>
   )
-}
+};
 
-export default Footer
+export default Footer;
+

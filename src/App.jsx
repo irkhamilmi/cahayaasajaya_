@@ -21,8 +21,7 @@ function App() {
       <Route path="/lokasi" Component={Lokasi}/>
       <Route path="/artikel" Component={Artikel}/>
     </Routes>
-
-    
+ 
   </div>
   )
 }
