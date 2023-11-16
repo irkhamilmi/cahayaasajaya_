@@ -18,9 +18,9 @@ import tokoped from "./../../assets/icons/toko.svg";
 function Header() {
   return (
     <>
-      <div>
+     
         {["lg"].map((expand) => (
-          <Navbar key={expand} expand={expand} className="bg-body-tertiary">
+          <Navbar key={expand} expand={expand} className="bg-body-tertiary p-0">
             <Container className="mx-auto my-1 container">
               <Navbar.Brand href="/">
                 <svg
@@ -62,8 +62,8 @@ function Header() {
                     Offcanvas
                   </Offcanvas.Title>
                 </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Nav className="justify-content-start flex-grow-1 fs-5 fw-bold align-text-bottom">
+                <Offcanvas.Body className="align-text-bottom mt-4 mb-0">
+                  <Nav className="justify-content-start flex-grow-1 fs-6 fw-semibold align-text-bottom">
                     <Nav.Link href="/">
                       <span>Home</span>
                     </Nav.Link>
@@ -193,7 +193,7 @@ function Header() {
             </Container>
           </Navbar>
         ))}
-      </div>
+     
     </>
   );
 }
