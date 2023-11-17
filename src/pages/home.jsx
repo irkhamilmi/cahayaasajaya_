@@ -8,6 +8,7 @@ import brand from "../constant/brand";
 import TitleSection from "../components/title/TitleSection";
 import Hero from "../components/hero/Hero";
 
+
 function Home() {
   return (
     <>
@@ -25,7 +26,7 @@ function Home() {
             </p>
           </div>
         </section>
-        <section>
+        <section>  
           <TitleSection text="BRANDS" />
           <Row>
             {brand?.data?.map((v, i) => {
@@ -35,7 +36,7 @@ function Home() {
         </section>
         <section>
           <TitleSection text="KATEGORI PRODUK" />
-          <Row>
+          <Row>           
             {katefori?.data?.map((v, i) => {
               return <CardCategory image={v.image} key={i + 1} />;
             })}

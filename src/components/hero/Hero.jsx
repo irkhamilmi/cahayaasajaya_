@@ -32,7 +32,7 @@ function Hero() {
                 style={{ borderRadius: "30px" }}
               >
                 <svg
-                  className="svg-icon h-5 w-5"
+                  className="svg-icon h-5 w-5 me-2"
                   width="20"
                   height="20"
                   aria-hidden="true"
@@ -91,7 +91,7 @@ function Hero() {
                     {"<"}
                   </button>
                   <button
-                    className="btn bg-white fw-bold"
+                    className="btn bg-white fw-bold "
                     onClick={onNextClick}
                     style={{ borderRadius: "100%" }}
                   >

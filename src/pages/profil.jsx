@@ -1,4 +1,6 @@
+
 import bg from "../assets/image/video/video-image.png";
+
 
 function profil() {
   return (
