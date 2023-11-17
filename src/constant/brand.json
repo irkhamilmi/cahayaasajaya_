@@ -1,40 +1,212 @@
 {
   "data": [
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/09/logo-jayaboard.png",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/02/jayaboard.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/09/logo-jayaboard.png",
+      "id": 1,
+      "nama": "jayaboard",
+      "deskripsi": "Jayaboard adalah merek papan gypsum pertama di Indonesia, diciptakan dengan kualitas terbaik standar Internasional. Jayaboard menyediakan papan gypsum berteknologi sehingga papan gypsum Jayaboard sangat ringan dengan tingkat lendut yang sangat minimal.",
+      "path": "/produk/jayaboard",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-papan-gypsum.jpg",
+          "id": 1,
+          "nama": "jayaboard-papan-gypsum"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-gyptile.jpg",
+          "id": "",
+          "nama": "jayaboard-gyptile"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-rangka-concealed.jpg",
+          "id": "",
+          "nama": "jayaboard-rangka-concealed"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-rangka-exposed.jpg",
+          "id": "",
+          "nama": "jayaboard-rangka-exposed"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/09/jayaboard-rangka-partisi.jpg",
+          "id": "",
+          "nama": "jayaboard-rangka-partisi"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-compound.jpg",
+          "id": "",
+          "nama": "jayaboard-compound"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-peralatan.jpg",
+          "id": "",
+          "nama": "jayaboard-peralatan"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-yoshinogypsum.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/yoshino-1.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-yoshinogypsum.jpg",
+      "id": 1,
+      "nama": "yoshinogypsum",
+      "deskripsi": "Yoshino Gypsum adalah merek papan gypsum yang berasal dari Jepang dan merupakan pemimpin pangsa pasar internal di Jepang. Yoshino Gypsum menciptakan sistem partisi dinding dengan performa lebih tinggi dan lebih murah dibandingkan dengan beton atau ALC.",
+      "path": "/produk/yoshinogypsum",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-papan_gypsum.jpg",
+          "id": "",
+          "nama": "papan_gypsum"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-rangka_plafon_concealed.jpg",
+          "id": "",
+          "nama": "rangka_plafon"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-compound.jpg",
+          "id": "",
+          "nama": "gypsum-compound"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-knaufceiling.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/knauf-ceiling-solutions.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-knaufceiling.jpg",
+      "id": 1,
+      "nama": "knaufceiling",
+      "deskripsi": "Knauf Ceiling Solutions adalah penyedia material plafon akustik dan dinding akustik yang terbagi menjadi beberapa kategori diantaranya Mineral Fiber, Soundscapes, Feltworks. Selain plafon dan dinding akustik, Knauf Ceiling Solutions juga menyediakan rangka plafon baik concealed maupun exposed.",
+      "path": "/produk/knaufceiling",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_bioguard_acoustic_op_rh100.jpg",
+          "id": "",
+          "nama": "armstrong_bioguard"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_metalworks_modular_beam.jpg",
+          "id": "",
+          "nama": "metalworks_modular"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_grille_tegular.jpg",
+          "id": "",
+          "nama": "grille_tegular"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_feltworks_acoustical_panels.jpg",
+          "id": "",
+          "nama": "acoustical_panels"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-axiom_cloud.jpg",
+          "id": "",
+          "nama": "axiom_cloud"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-hunterdouglas.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/02/hunter-douglas-pertamina.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-hunterdouglas.jpg",
+      "id": 1,
+      "nama": "hunterdouglas",
+      "deskripsi": "Hunter Douglas adalah merek produk plafon metal berkualitas tinggi dan tersedia dalam berbagai variasi. Jajaran produk plafon metal Hunter Douglas mencakup berbagai tingkat kinerja yang berbeda-beda disesuaikan dengan bentuk dan kebutuhan proyek.",
+      "path": "/produk/hunterdouglas",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-linear_open_ceiling_84b.jpg",
+          "id": "",
+          "nama": "linear_open_ceiling"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-baffles_tavola_straight.jpg",
+          "id": "",
+          "nama": "baffles_tavola_straight"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-metal_ceiling_tiles.jpg",
+          "id": "",
+          "nama": "metal_ceiling_tiles"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-shera.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/shera.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-shera.jpg",
+      "id": 1,
+      "nama": "shera",
+      "deskripsi": "",
+      "path": "/produk/shera",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-plafon_partisi.jpg",
+          "id": "",
+          "nama": "halah"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
+          "id": "",
+          "nama": "halah"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
+          "id": "",
+          "nama": "halah"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
+          "id": "",
+          "nama": "halah"
+        },
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
+          "id": "",
+          "nama": "halah"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-jayabrix.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/02/jayabrix.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-jayabrix.jpg",
+      "id": 1,
+      "nama": "jayabrix",
+      "deskripsi": "",
+      "path": "/produk/jayabrix",
+      "data": [
+        {
+          "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/jayabrix-papan_silika_2.jpg",
+          "id": "",
+          "nama": "",
+          "desc": "Papan JAYABRIX diproduksi sebagai solusi alternatif untuk interior & eksterior. Digunakan sebagai plafon, partisi, dekorasi dinding dan lantai. Tersedia dengan ketebalan 3.5, 4.0, 6.0, dan 8.0 (mm)"
+        }
+      ]
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/logo-kalsi.jpg",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/kalsi.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/logo-kalsi.jpg",
+      "id": 1,
+      "nama": "kalsi",
+      "deskripsi": "",
+      "path": "/produk/kalsi",
+      "data": []
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/logo-intergrid.png",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/intergrid.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2022/10/logo-intergrid.png",
+      "id": 1,
+      "nama": "intergrid",
+      "deskripsi": "",
+      "path": "/produk/intergrid",
+      "data": []
     },
     {
-      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/logo-solo-detectortesters.png",
-      "id": 1
+      "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/solo-kit.jpg",
+      "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/logo-solo-detectortesters.png",
+      "id": 1,
+      "nama": "solo",
+      "deskripsi": "",
+      "path": "/produk/solo",
+      "data": []
     }
   ]
 }

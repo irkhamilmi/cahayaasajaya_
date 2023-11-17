@@ -16,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/produk" Component={Produk} />
+        <Route path="/produk/:slug" Component={Produk} />
         <Route path="/profil" Component={Profil} />
         <Route path="/lokasi" Component={Lokasi} />
         <Route path="/artikel" Component={Artikel} />

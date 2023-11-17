@@ -30,7 +30,7 @@ function Home() {
           <TitleSection text="BRANDS" />
           <Row>
             {brand?.data?.map((v, i) => {
-              return <CardBrand image={v.image} key={i} />;
+              return <CardBrand image={v.logo} key={i} />;
             })}
           </Row>
         </section>

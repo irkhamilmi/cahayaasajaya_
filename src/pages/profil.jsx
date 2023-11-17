@@ -17,7 +17,7 @@ function profil() {
       >
         <div className="container">
           <div className="row">
-            <div className="col-6 col-sm-4 fs-1 fw-bold px-4 py-4 text-white text-cus">
+            <div className="col-6 col-sm-6 fs-1 fw-bold px-4 py-4 text-white text-cus">
               Profil
             </div>
           </div>

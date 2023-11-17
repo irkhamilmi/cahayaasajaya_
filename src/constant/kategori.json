@@ -1,54 +1,64 @@
 {
   "data": [
     {
-      "nama": "",
+      "nama": "papan-gypsum",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-gypsum-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/papan-gypsum"
     },
     {
-      "nama": "",
+      "nama": "papan-gypsumtile",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/08/gypsum-tile@150x-100.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/papan-gypsumtile"
     },
     {
-      "nama": "",
+      "nama": "panel-akustik",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/panel-akustik-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/panel-akustik"
     },
     {
-      "nama": "",
+      "nama": "dinding-akustik",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/dinding-akustik"
     },
     {
-      "nama": "",
+      "nama": "papan-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-fibercement-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/papan-fibercement"
     },
     {
-      "nama": "",
+      "nama": "dinding-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-fibercement-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/dinding-fibercement"
     },
     {
-      "nama": "",
+      "nama": "lantai-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/lantai-fibercement-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/lantai-fibercement"
     },
     {
-      "nama": "",
+      "nama": "rangka-exposed",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-exposed-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/rangka-exposed"
     },
     {
-      "nama": "",
+      "nama": "rangka-concealed",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-concealed-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/rangka-concealed"
     },
     {
-      "nama": "",
+      "nama": "rangka-partisi",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-partisi-thumbnail.jpg",
-      "id": 1
+      "id": 1,
+      "path":"/produk/rangka-partisi"
     }
   ]
 }

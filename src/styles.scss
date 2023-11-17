@@ -4,7 +4,7 @@
 }
 
 #basic-nav-dropdown {
-//   font-size: 0.95rem;
+  //   font-size: 0.95rem;
 }
 
 #seeMoreLink {
@@ -20,10 +20,19 @@
   padding: 1em;
 }
 
+.linkm {
+  padding: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  color: #4b4b4c;
+}
+
 .dropdown-item:hover {
   outline: none;
   box-shadow: none;
-  background: none;
+  margin: 0 15px;
+  border-radius: 8px;
+  // background: none;
 }
 
 .dropdown-item a:hover {
@@ -42,7 +51,7 @@
 
 @media only screen and (min-width: 600px) {
   .eventsNav {
-    width: 30em;
+    width: 34em;
     padding-bottom: 1em;
   }
 }

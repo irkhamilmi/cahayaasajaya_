@@ -22,175 +22,128 @@ import facebook from "./../../assets/icons/fb.svg";
 import ig from "./../../assets/icons/ig.svg";
 import tokoped from "./../../assets/icons/toko.svg";
 
+import brand from "../../constant/brand.json";
+import kategori from "../../constant/kategori.json";
+
 function Header() {
   return (
     <>
-     
-        {["lg"].map((expand) => (
-          <Navbar key={expand} expand={expand} className="bg-body-tertiary p-0">
-            <Container className="mx-auto my-1 container">
-              <Navbar.Brand href="/">
-              <img src={icbrand} className="mx-1 mb-1 " alt="logo brand" 
-              style={{width: "70px"}}/>
-              </Navbar.Brand>
-              <Navbar.Toggle
-                aria-controls={`offcanvasNavbar-expand-${expand}`}
+      {["lg"].map((expand) => (
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary p-0">
+          <Container className="mx-auto my-1 container">
+            <Navbar.Brand href="/">
+              <img
+                src={icbrand}
+                className="mx-1 mb-1 "
+                alt="logo brand"
+                style={{ width: "70px" }}
               />
-              <Navbar.Offcanvas
-                id={`offcanvasNavbar-expand-${expand}`}
-                aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-                placement="end"
-              >
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    Offcanvas
-                  </Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body className="align-text-bottom mt-4 mb-0">
-                  <Nav className="justify-content-start flex-grow-1 fs-6 fw-semibold align-text-bottom">
-
-                    <Nav.Link href="/">
-                      <img src={inchm} className="mx-1 mb-1" alt="" />
-                      <span>Home</span>
-                    </Nav.Link>
-                    <Nav.Link href="/profil">
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  Offcanvas
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body className="align-text-bottom mt-4 mb-0">
+                <Nav className="justify-content-start flex-grow-1 fs-6 fw-semibold align-text-bottom">
+                  <Nav.Link href="/">
+                    <img src={inchm} className="mx-1 mb-1" alt="" />
+                    <span>Home</span>
+                  </Nav.Link>
+                  <Nav.Link href="/profil">
                     <img src={icprof} className="mx-1 mb-1" alt="" />
-                      Profil
-                    </Nav.Link>
-                  
-                    <NavDropdown  title="Produk" id="basic-nav-dropdown">
-                      <div className="eventsNav">
-                        <Row>
-                          <Col xs="12" md="6" className="text-left">
-                            <Dropdown.Header>Catering</Dropdown.Header>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Corporate
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Private
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Header>Classes</Dropdown.Header>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Barista 101
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  History of Coffee
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Intro to Cafe Snobbery
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Divider className="d-md-none" />
-                          </Col>
+                    Profil
+                  </Nav.Link>
 
-                          <Col xs="12" md="6" className="text-left">
-                            <Dropdown.Header>Rentals</Dropdown.Header>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Fireside Room
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Roasting Room
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Header>Seasonal</Dropdown.Header>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link" role="button">
-                                  Coldbrew Night
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                            <Dropdown.Item>
-                              <Link href="/">
-                                <a className="nav-link text-wrap" role="button">
-                                  Campfire Coffee Class
-                                </a>
-                              </Link>
-                            </Dropdown.Item>
-                          </Col>
-                        </Row>
-                      </div>
-                    </NavDropdown>
-                    
-                    <Nav.Link href="/lokasi">
+                  <NavDropdown title="Produk" id="basic-nav-dropdown">
+                    <div className="eventsNav">
+                      <Row>
+                        <Col xs="12" md="5" className="text-left">
+                          <Dropdown.Header>BRAND</Dropdown.Header>
+                          {brand?.data?.map((v, i) => {
+                            return (
+                              <Dropdown.Item key={i}>
+                                <Link to={v.path} className="linkm">
+                                  {v.nama}
+                                </Link>
+                              </Dropdown.Item>
+                            );
+                          })}
+                        </Col>
+
+                        <Col xs="12" md="5" className="text-left">
+                          <Dropdown.Header>KATEGORI</Dropdown.Header>
+                          {kategori?.data?.map((v, i) => {
+                            return (
+                              <Dropdown.Item key={i}>
+                                <Link to={v.path} className="linkm">
+                                  {v.nama}
+                                </Link>
+                              </Dropdown.Item>
+                            );
+                          })}
+                          
+                        </Col>
+                      </Row>
+                    </div>
+                  </NavDropdown>
+
+                  <Nav.Link href="/lokasi">
                     <img src={iclokasi} className="mx-1 mb-1" alt="" />
-                      Lokasi
-                    </Nav.Link>
-                    <Nav.Link href="/artikel">
+                    Lokasi
+                  </Nav.Link>
+                  <Nav.Link href="/artikel">
                     <img src={icartikel} className="mx-1 mb-1" alt="" />
-                      Artikel
-                    </Nav.Link>
-                  </Nav>
-                  <div className="align-items-center">
-                    <a
-                      href="https://www.tokopedia.com/atappla"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="-mt-1.5 mr-0.5 inline-block"
-                    >
-                      <img src={tokoped} alt="icon" />
-                    </a>
-                    <a
-                      href="https://www.instagram.com/dps.interdesign"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-block text-slate-500 hover:text-primary mx-2"
-                    >
-                      <img src={ig} alt="icon" />
-                    </a>
-                    <a
-                      href="https://www.facebook.com/dps.interdesign"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="inline-block text-slate-500 hover:text-primary"
-                    >
-                      <img src={facebook} alt="icon" />
-                    </a>
-                    <Button
-                      href="https://www.whatsapp.com/"
-                      target="_blank"
-                      variant="primary"
-                      className="mx-3 px-4 fs-7 fw-bold"
-                      size="l"
-                      style={{ background: "#4D4DAB", borderRadius: "30px" }}
-                    >
-                      HUBUNGI KAMI
-                    </Button>
-                  </div>
-                </Offcanvas.Body>
-              </Navbar.Offcanvas>
-            </Container>
-          </Navbar>
-        ))}
-     
+                    Artikel
+                  </Nav.Link>
+                </Nav>
+                <div className="align-items-center">
+                  <a
+                    href="https://www.tokopedia.com/atappla"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="-mt-1.5 mr-0.5 inline-block"
+                  >
+                    <img src={tokoped} alt="icon" />
+                  </a>
+                  <a
+                    href="https://www.instagram.com/dps.interdesign"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block text-slate-500 hover:text-primary mx-2"
+                  >
+                    <img src={ig} alt="icon" />
+                  </a>
+                  <a
+                    href="https://www.facebook.com/dps.interdesign"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-block text-slate-500 hover:text-primary"
+                  >
+                    <img src={facebook} alt="icon" />
+                  </a>
+                  <Button
+                    href="https://www.whatsapp.com/"
+                    target="_blank"
+                    variant="primary"
+                    className="mx-3 px-4 fs-7 fw-bold"
+                    size="l"
+                    style={{ background: "#4D4DAB", borderRadius: "30px" }}
+                  >
+                    HUBUNGI KAMI
+                  </Button>
+                </div>
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
     </>
   );
 }
