@@ -7,7 +7,7 @@ function profil() {
         className="dar"
         style={{
           backgroundImage: `url(${bg})`,
-          height: "400px",
+          height: "450px",
           width: "100%",
           backgroundSize: "cover",
           objectFit: "cover",
