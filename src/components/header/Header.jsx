@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 
 import inchm from "./../../assets/image/nav/home-icon.svg";
-import icbrand from "./../../assets/image/nav/brand-icon.svg";
+import icbrand from "./../../assets/image/nav/logos.png";
 import icprof from "./../../assets/image/nav/profil-icon.svg";
 import icprod from "./../../assets/image/nav/produk-icon.svg";
 import iclokasi from "./../../assets/image/nav/lokasi-icon.svg";
@@ -30,7 +30,8 @@ function Header() {
           <Navbar key={expand} expand={expand} className="bg-body-tertiary p-0">
             <Container className="mx-auto my-1 container">
               <Navbar.Brand href="/">
-              <img src={icbrand} className="mx-1 mb-1" alt="" />
+              <img src={icbrand} className="mx-1 mb-1 " alt="logo brand" 
+              style={{width: "70px"}}/>
               </Navbar.Brand>
               <Navbar.Toggle
                 aria-controls={`offcanvasNavbar-expand-${expand}`}
