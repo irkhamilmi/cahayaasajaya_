@@ -9,6 +9,7 @@ import Profil from "./pages/profil";
 import Lokasi from "./pages/lokasi";
 import Artikel from "./pages/artikel";
 import Kategori from "./pages/kategori";
+import CardKantorBaru from "./components/cards/CardKantorBaru";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/profil" Component={Profil} />
         <Route path="/lokasi" Component={Lokasi} />
         <Route path="/artikel" Component={Artikel} />
+        <Route path="/kantor-baru" Component={CardKantorBaru} />
       </Routes>
       <Footer />
     </div>
