@@ -1,3 +1,5 @@
+import icwa from "./../../assets/image/nav/wa.svg";
+
 function cardLong() {
   return (
     <>
@@ -8,7 +10,7 @@ function cardLong() {
         <div className="card-body">
           <div className="row">
             <div className="col-sm-7">
-              <h2 className="card-title font-weight-bold">Gratis Konsultasi</h2>
+              <h1 className="card-title font-weight-bold">Gratis Konsultasi</h1>
               <p className="card-text p-0 m-0">
                 Punya pertanyaan seputar produk material bangunan?
               </p>
@@ -18,6 +20,7 @@ function cardLong() {
               </p>
             </div>
             <div className="col-sm-5 my-auto  ">
+
               <a
                 href="#"
                 className="btn btn-lg active text-white"
@@ -26,9 +29,10 @@ function cardLong() {
                 style={{
                   borderRadius: "30px",
                   background: "#4D4DAB",
+                  marginLeft: "220px",
                 }}
               >
-                Hubungi Kami
+               Hubungi Kami
               </a>
             </div>
           </div>

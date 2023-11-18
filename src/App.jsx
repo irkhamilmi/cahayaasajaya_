@@ -8,6 +8,8 @@ import Produk from "./pages/produk";
 import Profil from "./pages/profil";
 import Lokasi from "./pages/lokasi";
 import Artikel from "./pages/artikel";
+import ArtikelKantorBaru from "./components/cards/CardKantorBaru";
+import CardKantorBaru from "./components/cards/CardKantorBaru";
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/profil" Component={Profil} />
         <Route path="/lokasi" Component={Lokasi} />
         <Route path="/artikel" Component={Artikel} />
+        <Route path="/kantor-baru" Component={CardKantorBaru} />
       </Routes>
       <Footer />
     </div>
