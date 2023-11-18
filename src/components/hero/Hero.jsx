@@ -16,7 +16,7 @@ function Hero() {
     <>
       <div
         className="relative"
-        style={{ background: "#353279", padding: "80px 0 80px 0" }}
+        style={{ background: "#92201c", padding: "80px 0 80px 0" }}
       >
         <div className="container row mx-auto">
           <div className="col-sm-5">

@@ -47,8 +47,8 @@ function Lokasi() {
                     />
                     <div className="position-absolute ">
                       <h4
-                        className="font-bold bg-white text-primary fw-bold py-2 px-3 rounded-5 "
-                        style={{ fontSize: "16px", margin: "20px" }}
+                        className="font-bold text-white fw-bold py-2 px-3 rounded-5 "
+                        style={{ fontSize: "16px", margin: "20px",background:"#92201c" }}
                       >
                         {lok.daerah}
                       </h4>

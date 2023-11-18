@@ -4,61 +4,282 @@
       "nama": "papan-gypsum",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-gypsum-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/papan-gypsum"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/papan-gypsum.jpg"
+            },
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/papan-gypsum.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Papan gypsum adalah material pelapis interior untuk dinding pembatas/partisi dan plafon gypsum suatu ruangan, serta dapat diaplikasikan sebagai pelapis dinding bata. Saat ini, penggunaan papan gipsum untuk interior sudah semakin meluas, disebabkan oleh karakteristiknya yang tahan api, ringan, pengerjaan yang mudah & cepat serta hasil akhir yang sangat baik.",
+        "Untuk pelapis dinding bata ada banyak keuntungan dari penggunaan papan gypsum dibandingkan dengan dinding plester tradisional. Keuntungan tersebut dapat memudahkan para perancang dalam membangun konstruksi ruangan kantor, rumah, dll."
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/09/logo-jayaboard.png"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-yoshinogypsum.jpg"
+        }
+      ],
+      "path": "/kategori/papan-gypsum"
     },
     {
       "nama": "papan-gypsumtile",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/08/gypsum-tile@150x-100.jpg",
       "id": 1,
-      "path":"/produk/papan-gypsumtile"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/panel-gyptile.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Panel Gyptile adalah jenis Plafon terbuat dari Papan Gypsum berkualitas premium dengan finishing yang dapat disesuaikan dengan kebutuhan ruangan.",
+        "Panel Gyptile selalu dipadukan dengan Rangka Exposed/Terlihat T24mm, dengan modul Standar 600mmx600mm atau 600mmx1200mm"
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/09/logo-jayaboard.png"
+        }
+      ],
+      "path": "/kategori/papan-gypsumtile"
     },
     {
       "nama": "panel-akustik",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/panel-akustik-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/panel-akustik"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/plafon-akustik.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Panel Akustik adalah jenis Plafon terbuat dari Mineral Fiber yang memiliki kelebihan dalam penyerapan suara sehingga sangat cocok untuk Ruangan Perkantoran, Rumah Sakit, Sekolah atau Ruangan yang membutuhkan performa penyerapan suara sehingga meningkatkan produktifitas dari pengguna ruangan tersebut.",
+        "Rangka Exposed Terlihat, Tipe Rangka yang juga diaplikasikan dengan Panel Gyptile khusus yang Rangka Tepi Standard T 24mm atau Tipe Slim T15mm Untuk aplikasi Panel Akustik & Rangka Exposed ini bisa ditawarkan ukuran Modul 600mmx1200mm atau 600mmx600mm Dan juga ada 2opsi Tepi Panel Akustik, yaitu Square Edge/Tepi Datar atau Tegular Edge/Tepi Tegular",
+        "Rangka Concealed/Tersembunyi, Tipe Rangka yang ada dalam Panel Akustik sehingga menciptakan penampilan akhir plafon Akustik dengan rangka tidak terlihat,",
+        "Rangka Semi Concealed, Tipe Rangka yang terlihat di sisi satu namun tidak terlihat disisi sebelahnya, Rangka Semi concealed jauh lebih mudah pemasangan & pemeliharaan dibandingkan Concealed Sytem"
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-knaufceiling.jpg"
+        }
+      ],
+      "path": "/kategori/panel-akustik"
     },
     {
       "nama": "dinding-akustik",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/dinding-akustik"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Dinding akustik merupakan material berbentuk panel peredam ruangan yang dapat meredam suara & mengurangi terjadinya echo (gema) dan reverbration (suara dengung) di dalam sebuah ruangan seperti studio rekaman, home theater, ruang auditorium, ruang rapat dan sebagainya.",
+        "Dinding akustik berkualitas menggunakan panel akustik yang dapat menyerap suara dengan baik, memiliki kelebihan untuk peredaman suara.",
+        "Kami menyediakan panel dinding akustik yang memiliki nilai NRC (Noise Reduction Coefﬁcient) dan menggunakan bahan ramah lingkungan."
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-knaufceiling.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/feltworks.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/optra.jpg"
+        }
+      ],
+      "path": "/kategori/dinding-akustik"
     },
     {
       "nama": "papan-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-fibercement-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/papan-fibercement"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Dinding akustik merupakan material berbentuk panel peredam ruangan yang dapat meredam suara & mengurangi terjadinya echo (gema) dan reverbration (suara dengung) di dalam sebuah ruangan seperti studio rekaman, home theater, ruang auditorium, ruang rapat dan sebagainya.",
+        "Dinding akustik berkualitas menggunakan panel akustik yang dapat menyerap suara dengan baik, memiliki kelebihan untuk peredaman suara.",
+        "Kami menyediakan panel dinding akustik yang memiliki nilai NRC (Noise Reduction Coefﬁcient) dan menggunakan bahan ramah lingkungan."
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-knaufceiling.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/feltworks.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/optra.jpg"
+        }
+      ],
+      "path": "/kategori/papan-fibercement"
     },
     {
       "nama": "dinding-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-fibercement-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/dinding-fibercement"
+      "data": [
+        {
+          "image": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-fibercement-1.jpg"
+            }
+          ]
+        }
+      ],
+      "deskripsi": [
+        "Papan fibercement adalah papan silikat yang terbuat dari campuran pasir silika dan semen, yang diperkuat dengan serat selulosa, dan diproses dengan teknik pengeringan autoclave, sehingga tidak retak akibat muai susut.",
+        "Papan fibercement ini sangat cocok untuk aplikasi partisi maupun plafon karena tahan benturan, tahan rayap, tahan api, tahan air dan tahan lembab. Proses pemasangannya pun praktis dan cepat karena tidak memerlukan keahlian khusus.",
+        "DPS Group menyediakan papan fibercement dengan berbagai pilihan merek dan fungsi. Hubungi kami untuk informasi harga dan pembelian papan fibercement."
+      ],
+      "distributor": [
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-shera.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2022/06/logo-jayabrix.jpg"
+        },
+        {
+          "logo": "https://dps-interdesign.com/wp-content/uploads/2023/01/logo-kalsi.jpg"
+        }
+      ],
+      "path": "/kategori/dinding-fibercement"
     },
     {
       "nama": "lantai-fibercement",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/lantai-fibercement-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/lantai-fibercement"
+      "data": [
+        {
+          "image": [
+            {
+              "image": ""
+            },
+            {
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "deskripsi": ["", "", ""],
+      "distributor": [
+        {
+          "logo": ""
+        },
+        {
+          "logo": ""
+        }
+      ],
+      "path": "/kategori/lantai-fibercement"
     },
     {
       "nama": "rangka-exposed",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-exposed-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/rangka-exposed"
+      "data": [
+        {
+          "image": [
+            {
+              "image": ""
+            },
+            {
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "deskripsi": ["", "", ""],
+      "distributor": [
+        {
+          "logo": ""
+        },
+        {
+          "logo": ""
+        }
+      ],
+      "path": "/kategori/rangka-exposed"
     },
     {
       "nama": "rangka-concealed",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-concealed-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/rangka-concealed"
+      "data": [
+        {
+          "image": [
+            {
+              "image": ""
+            },
+            {
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "deskripsi": ["", "", ""],
+      "distributor": [
+        {
+          "logo": ""
+        },
+        {
+          "logo": ""
+        }
+      ],
+      "path": "/kategori/rangka-concealed"
     },
     {
       "nama": "rangka-partisi",
       "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/rangka-partisi-thumbnail.jpg",
       "id": 1,
-      "path":"/produk/rangka-partisi"
+      "data": [
+        {
+          "image": [
+            {
+              "image": ""
+            },
+            {
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "deskripsi": ["", "", ""],
+      "distributor": [
+        {
+          "logo": ""
+        },
+        {
+          "logo": ""
+        }
+      ],
+      "path": "/kategori/rangka-partisi"
     }
   ]
 }

@@ -25,7 +25,7 @@ function cardLong() {
                 aria-pressed="true"
                 style={{
                   borderRadius: "30px",
-                  background: "#4D4DAB",
+                  background: "#92201c",
                 }}
               >
                 Hubungi Kami

@@ -132,9 +132,9 @@ function Header() {
                     href="https://www.whatsapp.com/"
                     target="_blank"
                     variant="primary"
-                    className="mx-3 px-4 fs-7 fw-bold"
+                    className="mx-3 px-4 fs-7 fw-bold border-0"
                     size="l"
-                    style={{ background: "#4D4DAB", borderRadius: "30px" }}
+                    style={{ background: "#92201c", borderRadius: "30px" }}
                   >
                     HUBUNGI KAMI
                   </Button>

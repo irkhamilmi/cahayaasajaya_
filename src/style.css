@@ -30,8 +30,25 @@ section {
   position: relative;
 }
 .text-cus {
-  background: #4d4dab;
+  background: #92201c;
   position: absolute;
   bottom: 0;
   border-radius: 30px 30px 0 0;
+}
+
+/* //kategori */
+.ha {
+  position: relative;
+}
+
+.img-cus {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  border-radius: 30px 30px 0 0;
+  bottom: -100px;
+}
+
+.cihuy{
+  margin-top: 140px;
 }
