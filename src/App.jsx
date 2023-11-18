@@ -10,6 +10,7 @@ import Lokasi from "./pages/lokasi";
 import Artikel from "./pages/artikel";
 import Kategori from "./pages/kategori";
 import CardKantorBaru from "./components/cards/CardKantorBaru";
+import Detail from "./pages/detail";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/" Component={Home} />
         <Route path="/produk" Component={Produk} />
         <Route path="/produk/:slug" Component={Produk} />
+        <Route path="/produk/:slug/:child" Component={Detail} />
         <Route path="/kategori/:slug" Component={Kategori} />
         <Route path="/profil" Component={Profil} />
         <Route path="/lokasi" Component={Lokasi} />

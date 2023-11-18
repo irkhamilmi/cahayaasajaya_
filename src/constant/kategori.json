@@ -6,15 +6,9 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/papan-gypsum.jpg"
-            },
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/papan-gypsum.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/papan-gypsum.jpg"
         }
+       
       ],
       "deskripsi": [
         "Papan gypsum adalah material pelapis interior untuk dinding pembatas/partisi dan plafon gypsum suatu ruangan, serta dapat diaplikasikan sebagai pelapis dinding bata. Saat ini, penggunaan papan gipsum untuk interior sudah semakin meluas, disebabkan oleh karakteristiknya yang tahan api, ringan, pengerjaan yang mudah & cepat serta hasil akhir yang sangat baik.",
@@ -36,11 +30,7 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/panel-gyptile.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/03/panel-gyptile.jpg"
         }
       ],
       "deskripsi": [
@@ -60,11 +50,7 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/plafon-akustik.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/plafon-akustik.jpg"
         }
       ],
       "deskripsi": [
@@ -86,11 +72,7 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
         }
       ],
       "deskripsi": [
@@ -117,11 +99,7 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/dinding-akustik.jpg"
         }
       ],
       "deskripsi": [
@@ -148,11 +126,7 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-fibercement-1.jpg"
-            }
-          ]
+          "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/papan-fibercement-1.jpg"
         }
       ],
       "deskripsi": [
@@ -179,14 +153,10 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": ""
-            },
-            {
-              "image": ""
-            }
-          ]
+          "image": ""
+        },
+        {
+          "image": ""
         }
       ],
       "deskripsi": ["", "", ""],
@@ -206,14 +176,10 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": ""
-            },
-            {
-              "image": ""
-            }
-          ]
+          "image": ""
+        },
+        {
+          "image": ""
         }
       ],
       "deskripsi": ["", "", ""],
@@ -233,14 +199,10 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": ""
-            },
-            {
-              "image": ""
-            }
-          ]
+          "image": ""
+        },
+        {
+          "image": ""
         }
       ],
       "deskripsi": ["", "", ""],
@@ -260,14 +222,10 @@
       "id": 1,
       "data": [
         {
-          "image": [
-            {
-              "image": ""
-            },
-            {
-              "image": ""
-            }
-          ]
+          "image": ""
+        },
+        {
+          "image": ""
         }
       ],
       "deskripsi": ["", "", ""],

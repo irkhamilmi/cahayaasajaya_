@@ -11,36 +11,84 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-papan-gypsum.jpg",
           "id": 1,
-          "nama": "jayaboard-papan-gypsum"
+          "path": "/produk/jayaboard/jayaboard-papan-gypsum",
+          "nama": "jayaboard-papan-gypsum",
+          "keterangan": [
+            "Produk-produk Jayaboard® diciptakan dengan berbagai keunggulan yang dapat memenuhi objektif proyek Anda.",
+            "Telusuri rangkaian produk papan gypsum Jayaboard dan manfaatkan untuk proyek Anda selanjutnya."
+          ],
+          "data": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/jayaboard-papan-gypsum-standard.jpg",
+              "title": "STANDARD BOARD",
+              "deskripsi": "Berbagai tipe papan gypsum standard Jayaboard® diciptakan dengan kualitas terbaik, standar internasional. Papan gypsum pertama dan terbaik di Indonesia."
+            },
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/jayaboard-papan-gypsum-technical.jpg",
+              "title": "TECHNICAL BOARD",
+              "deskripsi": "Rangkaian Technical Boards Jayaboard® diciptakan dengan keunggulan masing - masing untuk dapat memenuhi kebutuhan project anda."
+            }
+          ]
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-gyptile.jpg",
           "id": "",
-          "nama": "jayaboard-gyptile"
+          "path": "/produk/jayaboard/jayaboard-gyptile",
+          "nama": "jayaboard-gyptile",
+          "keterangan": [
+            "Rangkaian produk Jayapanel menawarkan produk gypsum panel kualitas premium dengan finishing yang dapat disesuaikan dengan kebutuhan ruangan."
+          ],
+          "data": [
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/jayaboard-gyptile-jaya-akustik.jpg",
+              "title": "Jaya Akustik",
+              "deskripsi": "Jaya Akustik adalah ceiling panel gypsum dengan kombinasi finishing cat dan perforasi."
+            },
+            {
+              "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/jayaboard-gyptile-jayadeko-natura.jpg",
+              "title": "Jayadeko Natura",
+              "deskripsi": "JayaDeko adalah ceiling panel gypsum dengan finishing cat. Produk ini menawarkan pemasangan cepat, dekoratif dan biaya yang kompetitif."
+            }
+          ]
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-rangka-concealed.jpg",
           "id": "",
+          "path": "/produk/jayaboard/jayaboard-rangka-concealed",
+          "data": [],
+          "keterangan": [],
           "nama": "jayaboard-rangka-concealed"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-rangka-exposed.jpg",
           "id": "",
+          "path": "/produk/jayaboard/jayaboard-rangka-exposed",
+          "data": [],
+          "keterangan": [],
           "nama": "jayaboard-rangka-exposed"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/09/jayaboard-rangka-partisi.jpg",
           "id": "",
+          "path": "/produk/jayaboard/jayaboard-rangka-partisi",
+          "data": [],
+          "keterangan": [],
           "nama": "jayaboard-rangka-partisi"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-compound.jpg",
           "id": "",
+          "path": "/produk/jayaboard/jayaboard-compound",
+          "data": [],
+          "keterangan": [],
           "nama": "jayaboard-compound"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2023/01/jayaboard-peralatan.jpg",
           "id": "",
+          "path": "/produk/jayaboard/jayaboard-peralatan",
+          "data": [],
+          "keterangan": [],
           "nama": "jayaboard-peralatan"
         }
       ]
@@ -56,16 +104,22 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-papan_gypsum.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "papan_gypsum"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-rangka_plafon_concealed.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "rangka_plafon"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/08/yoshino_gypsum-compound.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "gypsum-compound"
         }
       ]
@@ -81,26 +135,36 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_bioguard_acoustic_op_rh100.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "armstrong_bioguard"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_metalworks_modular_beam.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "metalworks_modular"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_grille_tegular.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "grille_tegular"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-armstrong_feltworks_acoustical_panels.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "acoustical_panels"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/knauf-axiom_cloud.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "axiom_cloud"
         }
       ]
@@ -116,16 +180,22 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-linear_open_ceiling_84b.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "linear_open_ceiling"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-baffles_tavola_straight.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "baffles_tavola_straight"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/hunter_douglas-metal_ceiling_tiles.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "metal_ceiling_tiles"
         }
       ]
@@ -141,26 +211,36 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-plafon_partisi.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "halah"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "halah"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "halah"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "halah"
         },
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/10/shera-wall_plank.jpg",
           "id": "",
+          "data": [],
+          "keterangan": [],
           "nama": "halah"
         }
       ]
@@ -176,8 +256,9 @@
         {
           "image": "https://dps-interdesign.com/wp-content/uploads/2022/11/jayabrix-papan_silika_2.jpg",
           "id": "",
-          "nama": "",
-          "desc": "Papan JAYABRIX diproduksi sebagai solusi alternatif untuk interior & eksterior. Digunakan sebagai plafon, partisi, dekorasi dinding dan lantai. Tersedia dengan ketebalan 3.5, 4.0, 6.0, dan 8.0 (mm)"
+          "data": [],
+          "keterangan": [],
+          "nama": ""
         }
       ]
     },

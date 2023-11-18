@@ -1,4 +1,4 @@
-import { Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import CardBrand from "../components/cards/CardBrand";
 import CardCategory from "../components/cards/CardCategory";
 import CardLong from "../components/cards/CardLong";
@@ -8,7 +8,6 @@ import brand from "../constant/brand";
 import TitleSection from "../components/title/TitleSection";
 import Hero from "../components/hero/Hero";
 
-
 function Home() {
   return (
     <>
@@ -16,30 +15,42 @@ function Home() {
       <div className="container">
         <section>
           <div className="text-center">
-            <span className="fs-2 fw-bold w-75 mx-auto">
+            <span className="fs-2 fw-bold cus-wid mx-auto">
               Melayani penjualan grosir dan eceran
             </span>
-            <p className="mt-2 w-50 mx-auto">
+            <p className="mt-2 cus-wid mx-auto">
               Papan Gypsum, Sistem plafon dan partisi, Papan fiber semen, Papan
               silikat, Panel akustik, serta berbagai produk penunjang dan
               aksesoris bangunan
             </p>
           </div>
         </section>
-        <section>  
+        <section>
           <TitleSection text="BRANDS" />
           <Row>
-            {brand?.data?.map((v, i) => {
-              return <CardBrand image={v.logo} key={i} />;
-            })}
+            <Col>
+              <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 mt-4">
+                {brand?.data?.map((v, i) => (
+                  <div className="col p-0" key={i}>
+                    <CardBrand image={v.logo} link={v.path} />
+                  </div>
+                ))}
+              </div>
+            </Col>
           </Row>
         </section>
         <section>
           <TitleSection text="KATEGORI PRODUK" />
-          <Row>           
-            {katefori?.data?.map((v, i) => {
-              return <CardCategory image={v.image} key={i + 1} />;
-            })}
+          <Row>
+            <Col>
+              <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 mt-4">
+                {katefori?.data?.map((v, i) => (
+                  <div className="col p-0" key={i}>
+                    <CardCategory image={v.image} />
+                  </div>
+                ))}
+              </div>
+            </Col>
           </Row>
         </section>
         <section>

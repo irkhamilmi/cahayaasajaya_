@@ -21,42 +21,45 @@ section {
   margin: 60px 0 60px 0;
 }
 
- /* for desktop */
- .whatsapp_float {
-   position: fixed;
-   width: 60px;
-   height: 60px;
-   bottom: 40px;
-   right: 40px;
-   background-color: #25d366;
-   color: #FFF;
-   border-radius: 50px;
-   text-align: center;
-   font-size: 30px;
-   box-shadow: 2px 2px 3px #999;
-   z-index: 100;
- }
+/* for desktop */
 
- .whatsapp-icon {
-   margin-top: 16px;
- }
+.cus-wid {
+  width: 700px;
+}
 
- /* for mobile */
- @media screen and (max-width: 767px) {
-   .whatsapp-icon {
-     margin-top: 10px;
-   }
+.cus-wid-pro {
+  width: 400px;
+}
 
-   .whatsapp_float {
-     width: 40px;
-     height: 40px;
-     bottom: 20px;
-     /* right: 10px; */
-     font-size: 22px;
-   }
- }
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
 
 /* hero */
+/* carousel */
+.carousel,
+.img-her {
+  /* width: auto;
+      height: 300px; */
+  margin: auto;
+  border-radius: 20px 20px;
+  overflow: hidden;
+}
 .button-arrow-hero {
   position: absolute;
   margin-top: -60px;
@@ -84,6 +87,52 @@ section {
   bottom: -100px;
 }
 
-.cihuy{
+.cihuy {
   margin-top: 140px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .hero {
+    margin-bottom: 20px;
+  }
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  section {
+      margin: 30px 0 60px 0;
+    }
+  .cus-wid {
+    width: auto;
+  }
+  .cus-wid-pro {
+    width: 90%;
+  }
+
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    /* right: 10px; */
+    font-size: 22px;
+  }
+
+  /* carousel */
+  .carousel,
+  .img-her {
+    width: auto;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px 20px;
+    overflow: hidden;
+  }
+
+  /* kategori */
+    .cihuy {
+      margin-top: 80px;
+    }
 }

@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import {  Container } from "react-bootstrap";
 import { alokasi } from "../constant/lokasi";
 
 import icwa from "./../assets/image/nav/wa.svg";
@@ -23,7 +23,7 @@ function Lokasi() {
       >
         <div className="container">
           <div className="row">
-            <div className="col-10 col-sm-6 fs-1 fw-bold px-4 py-4 text-white text-cus">
+            <div className="col-8 col-sm-6 fs-1 fw-bold px-4 py-4 text-white text-cus mx-3">
               Head Office & Warehouse
             </div>
           </div>

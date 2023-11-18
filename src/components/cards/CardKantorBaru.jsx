@@ -5,7 +5,7 @@ function CardKantorBaru() {
     <>
       <div
         className="relative"
-        style={{ background: "#353279", width: "100%", height: "300px" }}
+        style={{ background: "#92201c", width: "100%", height: "300px" }}
       ></div>
       <div style={{ background: "white" }}>
         <div className="relative">

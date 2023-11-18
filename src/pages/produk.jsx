@@ -1,14 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import bg from "../assets/image/video/video-image.png";
 
 import CardLong from "../components/cards/CardLong";
-import TitleSection from "../components/title/TitleSection";
 
-import katefori from "../constant/kategori";
 import brand from "../constant/brand";
 import CardProduk from "../components/cards/CardProduk";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 const produk = () => {
   const { slug } = useParams();
@@ -19,8 +16,8 @@ const produk = () => {
       <section>
         <div className="container">
           <div className="row justify-content-evenly align-items-center">
-            <div className="col-12 col-sm-6 order-2 order-sm-0">
-              <div className="w-75 mt-4">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6 order-2 order-sm-2 order-md-2 order-lg-0">
+              <div className="cus-wid-pro mt-4">
                 {brand?.data.map((v) =>
                   v.nama === slug ? (
                     <>
@@ -48,7 +45,10 @@ const produk = () => {
                     ""
                   )
                 )}
-                <span className="fw-semibold fs-5 fs-sm-4" style={{ color: "#4D4DAB" }}>
+                <span
+                  className="fw-semibold fs-5 fs-sm-4"
+                  style={{ color: "#4D4DAB" }}
+                >
                   INFORMASI HARGA DAN PEMBELIAN
                 </span>
                 <a
@@ -81,7 +81,7 @@ const produk = () => {
                 </a>
               </div>
             </div>
-            <div className="col-12 col-sm-6 order-1 order-sm-0">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6 order-1 order-sm-1 order-md-1 order-md-0">
               {brand?.data.map((v) =>
                 v.nama === slug ? (
                   <>
@@ -105,20 +105,24 @@ const produk = () => {
         </div>
       </section>
       <section className="bg-light py-5 px-3 text-center">
-        <Row className="justify-content-md-center">
-          <Col sm={12} md={6}>
+        <Row className="justify-content-center justify-content-md-center">
+          <Col sm={12} md={10} lg={8}>
             <span
               className="fw-semibold fs-5 text-uppercase"
               style={{ color: "#4D4DAB" }}
             >
               {`lini produk ${slug}`}
             </span>
-            <div className="row row-cols-2 row-cols-sm-3 mt-4">
+            <div className="row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-3 mt-4">
               {brand?.data.map((v) =>
                 v.nama === slug
                   ? v.data.map((item, i) => (
                       <div className="col mb-4 mb-sm-4" key={i}>
-                        <CardProduk image={item.image} nama={item.nama} />
+                        <CardProduk
+                          image={item.image}
+                          nama={item.nama}
+                          link={item.path}
+                        />
                       </div>
                     ))
                   : ""

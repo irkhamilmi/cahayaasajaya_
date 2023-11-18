@@ -1,14 +1,11 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
-import bg from "../assets/image/video/video-image.png";
 
 import CardLong from "../components/cards/CardLong";
-import TitleSection from "../components/title/TitleSection";
 
 import kategori from "../constant/kategori";
 import brand from "../constant/brand";
-import CardProduk from "../components/cards/CardProduk";
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import CardBrand from "../components/cards/CardBrand";
 import Slider from "react-slick";
 import CardCategory from "../components/cards/CardCategory";
@@ -44,7 +41,7 @@ const Kategori = () => {
         breakpoint: 480,
         settings: {
           centerMode: true,
-        centerPadding: '40px',
+          centerPadding: "40px",
           slidesToShow: 1,
           slidesToScroll: 1,
         },
@@ -66,27 +63,27 @@ const Kategori = () => {
       >
         <div className="container">
           <div className="row">
-            <div className="col-12 col-sm-8 mx-0 mx-sm-2 img-cus">
+            <div className="col-12 col-sm-10 col-md-10 col-lg-8 mx-0 mx-sm-2 img-cus py-4">
               {kategori?.data.map((v) =>
-                v.nama === slug ? (
-                  <>
-                    <img
-                      src={v.image}
-                      className="card-img"
-                      alt="img"
-                      style={{
-                        width: "100%",
-                        height: "450px",
-                        cursor: "pointer",
-                        borderRadius: "16px",
-                        objectFit: "cover",
-                        backgroundSize: "cover",
-                      }}
-                    />
-                  </>
-                ) : (
-                  ""
-                )
+                v.nama === slug
+                  ? v.data.map((as) => (
+                      <>
+                        <img
+                          src={as.image}
+                          className="card-img shadow"
+                          alt="img"
+                          style={{
+                            width: "100%",
+                            height: "450px",
+                            cursor: "pointer",
+                            borderRadius: "16px",
+                            objectFit: "cover",
+                            backgroundSize: "cover",
+                          }}
+                        />
+                      </>
+                    ))
+                  : ""
               )}
             </div>
           </div>
@@ -96,7 +93,7 @@ const Kategori = () => {
       <section>
         <div className="container cihuy">
           <div className="row justify-content-evenly">
-            <div className="col-12 col-sm-6">
+            <div className="col-12 col-sm-12 col-md-12 col-lg-6">
               <div className="mt-4">
                 {kategori?.data.map((v) =>
                   v.nama === slug ? (
@@ -124,8 +121,8 @@ const Kategori = () => {
                 )}
               </div>
             </div>
-            <div className="col-12 col-sm-1"></div>
-            <div className="col-12 col-sm-5">
+            <div className="col-12 col-sm-0 col-md-0 col-lg-1"></div>
+            <div className="col-12 col-sm-12 col-md-12 col-lg-5">
               <span
                 className="fw-semibold fs-5 fs-sm-4"
                 style={{ color: "#4D4DAB" }}
@@ -170,7 +167,7 @@ const Kategori = () => {
                   DISTRIBUTOR BRAND {slug}
                 </span>
               </div>
-              <div className="mt-4 d-flex">
+              <div className="mt-4 row row-cols-2 row-cols-sm-3 row-cols-md-3 row-cols-lg-2">
                 {kategori?.data.map((v) =>
                   v.nama === slug
                     ? v.distributor.map((item, i) => (
@@ -185,9 +182,17 @@ const Kategori = () => {
       </section>
       <section className="bg-dark py-5 px-3">
         <Container>
+          <div className="mb-3">
+            <span
+              className="fw-semibold fs-5 fs-sm-4 text-uppercase"
+              style={{ color: "#ffffff" }}
+            >
+              kategori produk lainya
+            </span>
+          </div>
           <Slider {...settings}>
             {kategori?.data.map((v, i) => (
-              <CardCategory image={v.image} key={i} />
+              <CardCategory image={v.image} key={i} link={v.path} />
             ))}
           </Slider>
         </Container>
