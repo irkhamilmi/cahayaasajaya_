@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Image from "react-bootstrap/Image";
+import "./../../style.css";
 
 function Hero() {
   const ref = useRef(null);
@@ -26,7 +27,7 @@ function Hero() {
               </p>
               <a
                 href="/brand"
-                className="btn bg-white px-4 text-primary fw-semibold fs-6 btn-lg active border-0"
+                className="btn bg-white px-4 text-primary fw-semibold fs-6 btn-lg active border-0 "
                 role="button"
                 aria-pressed="true"
                 style={{ borderRadius: "30px" }}
@@ -81,7 +82,7 @@ function Hero() {
                   />
                 </Carousel.Item>
               </Carousel>
-              <div className="button-arrow-hero">
+              <div className="button-arrow-hero ">
                 <div>
                   <button
                     className="btn bg-white m-2 fw-bold"

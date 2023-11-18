@@ -52,3 +52,10 @@ section {
 .cihuy{
   margin-top: 140px;
 }
+
+
+@media (min-width: 320px) and (max-width: 767px){
+    .hero{
+      margin-bottom: 20px;
+    }
+}

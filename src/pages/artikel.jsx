@@ -16,7 +16,7 @@ const artikel = () => {
                   Home
                 </a>
               </span>
-              <span className="">Artikel</span>
+              <span className="">{">>"} Artikel</span>
             </span>
           </div>
         </div>

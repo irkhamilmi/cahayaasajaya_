@@ -48,7 +48,10 @@ const produk = () => {
                     ""
                   )
                 )}
-                <span className="fw-semibold fs-5 fs-sm-4" style={{ color: "#4D4DAB" }}>
+                <span
+                  className="fw-semibold fs-5 fs-sm-4"
+                  style={{ color: "#4D4DAB" }}
+                >
                   INFORMASI HARGA DAN PEMBELIAN
                 </span>
                 <a
