@@ -1,4 +1,3 @@
-import Breadcrumb from "react-bootstrap/Breadcrumb";
 import art from "../assets/image/video/artikel.jpeg";
 
 const artikel = () => {
@@ -6,7 +5,7 @@ const artikel = () => {
     <>
       <div
         className="relative"
-        style={{ background: "#353279", padding: "80px " }}
+        style={{ background: "#92201c", padding: "80px " }}
       >
         <div className="container mx-auto text-white">
           <h1 className="text-center fw-bold">Artikel</h1>
