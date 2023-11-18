@@ -27,7 +27,7 @@ function Hero() {
               </p>
               <a
                 href="/brand"
-                className="btn bg-white px-4 text-primary fw-semibold fs-6 btn-lg active border-0 "
+                className="herobtn btn bg-white px-4 text-primary fw-semibold fs-6 btn-lg active border-0 "
                 role="button"
                 aria-pressed="true"
                 style={{ borderRadius: "30px" }}

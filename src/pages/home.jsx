@@ -2,6 +2,7 @@ import { Row } from "react-bootstrap";
 import CardBrand from "../components/cards/CardBrand";
 import CardCategory from "../components/cards/CardCategory";
 import CardLong from "../components/cards/CardLong";
+import CardTentang from "../components/cards/CardTentang";
 
 import katefori from "../constant/kategori";
 import brand from "../constant/brand";
@@ -40,6 +41,9 @@ function Home() {
               return <CardCategory image={v.image} key={i + 1} />;
             })}
           </Row>
+        </section>
+        <section>
+          <CardTentang />
         </section>
         <section>
           <CardLong />

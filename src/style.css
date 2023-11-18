@@ -53,9 +53,15 @@ section {
   margin-top: 140px;
 }
 
+.Tentang{
+  width: 100px;
+}
 
-@media (min-width: 320px) and (max-width: 767px){
-    .hero{
-      margin-bottom: 20px;
-    }
+@media only screen and (max-width: 600px) {
+  .herobtn {
+    margin-bottom: 25px;
+  }
+  .longbtn {
+    margin-right: 30px;
+  }
 }

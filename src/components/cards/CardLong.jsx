@@ -1,3 +1,4 @@
+import "./../../style.css";
 
 function cardLong() {
   return (
@@ -7,7 +8,7 @@ function cardLong() {
         style={{ width: "100%", borderRadius: "20px", background: "#F1F5F9" }}
       >
         <div className="card-body">
-          <div className="row">
+          <div className="row ">
             <div className="col-sm-7">
               <h1 className="card-title font-weight-bold">Gratis Konsultasi</h1>
               <p className="card-text p-0 m-0">
@@ -18,11 +19,10 @@ function cardLong() {
                 Anda
               </p>
             </div>
-            <div className="col-sm-5 my-auto  ">
-
+            <div className="col-sm-5 my-auto ">
               <a
                 href="#"
-                className="btn btn-lg active text-white"
+                className=" btn btn-lg active text-white"
                 role="button"
                 aria-pressed="true"
                 style={{
@@ -31,7 +31,7 @@ function cardLong() {
                   marginLeft: "220px",
                 }}
               >
-               Hubungi Kami
+                Hubungi Kami
               </a>
             </div>
           </div>
