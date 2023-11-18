@@ -11,12 +11,12 @@ import {
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
-import inchm from "./../../assets/image/nav/home-icon.svg";
+// import inchm from "./../../assets/image/nav/home-icon.svg";
 import icbrand from "./../../assets/image/nav/logos.png";
-import icprof from "./../../assets/image/nav/profil-icon.svg";
-import icprod from "./../../assets/image/nav/produk-icon.svg";
-import iclokasi from "./../../assets/image/nav/lokasi-icon.svg";
-import icartikel from "./../../assets/image/nav/artikel-icon.svg";
+// import icprof from "./../../assets/image/nav/profil-icon.svg";
+// import icprod from "./../../assets/image/nav/produk-icon.svg";
+// import iclokasi from "./../../assets/image/nav/lokasi-icon.svg";
+// import icartikel from "./../../assets/image/nav/artikel-icon.svg";
 
 import facebook from "./../../assets/icons/fb.svg";
 import ig from "./../../assets/icons/ig.svg";
@@ -30,13 +30,13 @@ function Header() {
     <>
       {["lg"].map((expand) => (
         <Navbar key={expand} expand={expand} className="bg-body-tertiary p-0">
-          <Container className="mx-auto my-1 container">
+          <Container className="mx-auto my-0 container">
             <Navbar.Brand href="/">
               <img
                 src={icbrand}
                 className="mx-1 mb-1 "
                 alt="logo brand"
-                style={{ width: "70px" }}
+                style={{ width: "80px" }}
               />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -47,21 +47,22 @@ function Header() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  {/* Offcanvas */}
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="align-text-bottom mt-4 mb-0">
                 <Nav className="justify-content-start flex-grow-1 fs-6 fw-semibold align-text-bottom">
                   <Nav.Link href="/">
-                    <img src={inchm} className="mx-1 mb-1" alt="" />
-                    <span>Home</span>
+                    {/* <img src={inchm} className="mx-2 mb-1" alt="" /> */}
+                    <span className="mx-3">Home</span>
                   </Nav.Link>
                   <Nav.Link href="/profil">
-                    <img src={icprof} className="mx-1 mb-1" alt="" />
-                    Profil
+                    {/* <img src={icprof} className="mx-2 mb-1" alt="" /> */}
+                    <span className="mx-3">Profil</span>
+                    
                   </Nav.Link>
-
-                  <NavDropdown title="Produk" id="basic-nav-dropdown">
+                  {/* <img src={icprod} className="mx-2 mb-1" alt="" style={{width:"20px"}} /> */}
+                  <NavDropdown title="Produk" className="mx-3" id="basic-nav-dropdown">
                     <div className="eventsNav">
                       <Row>
                         <Col xs="12" md="5" className="text-left">
@@ -88,22 +89,24 @@ function Header() {
                               </Dropdown.Item>
                             );
                           })}
-                          
                         </Col>
                       </Row>
                     </div>
                   </NavDropdown>
 
                   <Nav.Link href="/lokasi">
-                    <img src={iclokasi} className="mx-1 mb-1" alt="" />
-                    Lokasi
+                    {/* <img src={iclokasi} className="mx-2 mb-1" alt="" /> */}
+                    <span className="mx-3">Lokasi</span>
+
+                    
                   </Nav.Link>
                   <Nav.Link href="/artikel">
-                    <img src={icartikel} className="mx-1 mb-1" alt="" />
-                    Artikel
+                    {/* <img src={icartikel} className="mx-2 mb-1" alt="" /> */}
+                    <span className="mx-3">Artikel</span>
+                    
                   </Nav.Link>
                 </Nav>
-                <div className="align-items-center">
+                <div className="align-items-center ">
                   <a
                     href="https://www.tokopedia.com/atappla"
                     target="_blank"
@@ -132,10 +135,11 @@ function Header() {
                     href="https://www.whatsapp.com/"
                     target="_blank"
                     variant="primary"
-                    className="mx-3 px-4 fs-7 fw-bold border-0"
+                    className="mx-3 px-4 py-2 fs-7 fw-bold border-0"
                     size="l"
                     style={{ background: "#92201c", borderRadius: "30px" }}
                   >
+                    <i className="fa fa-whatsapp px-2"></i>
                     HUBUNGI KAMI
                   </Button>
                 </div>
