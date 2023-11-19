@@ -70,9 +70,9 @@ const Detail = () => {
                                   </h5>
                                   <p className="card-text">{a.deskripsi}</p>
                                   <Button
-                                    href="https://www.whatsapp.com/"
+                                    href="https://wa.me/2348100000000"
                                     target="_blank"
-                                    variant="primary"
+                                    rel="noopener noreferrer"
                                     className="mx-1 px-4 fs-6 fw-medium border-0"
                                     size="l"
                                     style={{

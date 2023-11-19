@@ -59,10 +59,13 @@ function Header() {
                   <Nav.Link href="/profil">
                     {/* <img src={icprof} className="mx-2 mb-1" alt="" /> */}
                     <span className="mx-3">Profil</span>
-                    
                   </Nav.Link>
                   {/* <img src={icprod} className="mx-2 mb-1" alt="" style={{width:"20px"}} /> */}
-                  <NavDropdown title="Produk" className="mx-3" id="basic-nav-dropdown">
+                  <NavDropdown
+                    title="Produk"
+                    className="mx-3"
+                    id="basic-nav-dropdown"
+                  >
                     <div className="eventsNav">
                       <Row>
                         <Col xs="12" md="5" className="text-left">
@@ -97,13 +100,10 @@ function Header() {
                   <Nav.Link href="/lokasi">
                     {/* <img src={iclokasi} className="mx-2 mb-1" alt="" /> */}
                     <span className="mx-3">Lokasi</span>
-
-                    
                   </Nav.Link>
                   <Nav.Link href="/artikel">
                     {/* <img src={icartikel} className="mx-2 mb-1" alt="" /> */}
                     <span className="mx-3">Artikel</span>
-                    
                   </Nav.Link>
                 </Nav>
                 <div className="align-items-center ">
@@ -132,9 +132,9 @@ function Header() {
                     <img src={facebook} alt="icon" />
                   </a>
                   <Button
-                    href="https://www.whatsapp.com/"
+                    href="https://wa.me/2348100000000"
                     target="_blank"
-                    variant="primary"
+                    rel="noopener noreferrer"
                     className="mx-3 px-4 py-2 fs-7 fw-bold border-0"
                     size="l"
                     style={{ background: "#92201c", borderRadius: "30px" }}

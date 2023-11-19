@@ -25,7 +25,7 @@ function profil() {
         <div className="container">
           <div className="row justify-content-evenly align-items-center">
             <div className="col-12 col-sm-12 col-md-12 col-lg-6">
-              <span className="fw-semibold fs-2" style={{ color: "#4D4DAB" }}>
+              <span className="fw-semibold fs-2" style={{ color: "#92201c" }}>
                 Organisasi
               </span>
               <div className="fs-6 fw-medium ">
@@ -68,7 +68,7 @@ function profil() {
       </section>
       <section>
         <div className="container">
-          <span className="fw-semibold fs-2" style={{ color: "#4D4DAB" }}>
+          <span className="fw-semibold fs-2" style={{ color: "#92201c" }}>
             Core Value
           </span>
           <div className="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 mt-4">
@@ -112,7 +112,7 @@ function profil() {
       <div className="row row-cols-1 row-cols-sm-2 bg-light align-items-center m-0">
         <div className="col-12 col-sm-6 p-0 order-2 order-sm-0">
           <div className="cus-wid-pro mx-auto py-4">
-            <span className="fw-semibold fs-2" style={{ color: "#4D4DAB" }}>
+            <span className="fw-semibold fs-2" style={{ color: "#92201c" }}>
               Tim Manajemen
             </span>
             <p className="mt-4 fw-medium">
@@ -150,7 +150,7 @@ function profil() {
         </div>
         <div className="col-12 col-sm-6 p-0 order-4 order-sm-3">
           <div className="cus-wid-pro mx-auto py-4">
-            <span className="fw-semibold fs-2" style={{ color: "#4D4DAB" }}>
+            <span className="fw-semibold fs-2" style={{ color: "#92201c" }}>
               Multi Gudang & Pengiriman Tepat Waktu
             </span>
             <p className="mt-4 fw-medium">

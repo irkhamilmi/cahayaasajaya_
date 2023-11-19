@@ -2,6 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import CardBrand from "../components/cards/CardBrand";
 import CardCategory from "../components/cards/CardCategory";
 import CardLong from "../components/cards/CardLong";
+import CardTentang from "../components/cards/CardTentang";
 
 import katefori from "../constant/kategori";
 import brand from "../constant/brand";
@@ -12,8 +13,9 @@ function Home() {
   return (
     <>
       <Hero />
-      <div className="container">
-        <section>
+
+      <div className="bg-light py-2 py-sm-4">
+        <section className="container">
           <div className="text-center">
             <span className="fs-2 fw-bold cus-wid mx-auto">
               Melayani penjualan grosir dan eceran
@@ -25,7 +27,7 @@ function Home() {
             </p>
           </div>
         </section>
-        <section>
+        <section className="container" id="componentToScrollTo">
           <TitleSection text="BRANDS" />
           <Row>
             <Col>
@@ -39,7 +41,7 @@ function Home() {
             </Col>
           </Row>
         </section>
-        <section>
+        <section className="container">
           <TitleSection text="KATEGORI PRODUK" />
           <Row>
             <Col>
@@ -53,10 +55,13 @@ function Home() {
             </Col>
           </Row>
         </section>
-        <section>
-          <CardLong />
-        </section>
       </div>
+      <section>
+        <CardTentang />
+      </section>
+      <section className="container">
+        <CardLong />
+      </section>
     </>
   );
 }

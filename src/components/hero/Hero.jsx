@@ -28,7 +28,7 @@ function Hero() {
                     Distributor Aneka Produk Bangunan, Plafon dan Partisi
                   </p>
                   <a
-                    href="/brand"
+                    href='#componentToScrollTo'
                     className="btn bg-white px-4 py-3 text-black fw-bold fs-6 btn-lg active border-0 "
                     role="button"
                     aria-pressed="true"

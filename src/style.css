@@ -91,6 +91,20 @@ section {
   margin-top: 140px;
 }
 
+/* cardtentang */
+.cus-e{
+  /* position: absolute; */
+  /* right: 0; */
+}
+    .cus-wid-img {
+      width: auto;
+      border-radius: 20px;
+    }
+
+    .cus-tent{
+      border-radius: 20px;
+    }
+
 @media (min-width: 320px) and (max-width: 767px) {
   .hero {
     margin-bottom: 20px;
@@ -100,14 +114,22 @@ section {
 /* for mobile */
 @media screen and (max-width: 767px) {
   section {
-      margin: 30px 0 60px 0;
-    }
+    margin: 30px 0 60px 0;
+  }
   .cus-wid {
     width: auto;
   }
   .cus-wid-pro {
     width: 90%;
   }
+
+  .cus-wid-img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+    .cus-tent {
+      border-radius: 0 0 20px 20px;
+    }
 
   .whatsapp-icon {
     margin-top: 10px;
@@ -132,7 +154,19 @@ section {
   }
 
   /* kategori */
-    .cihuy {
-      margin-top: 80px;
-    }
+  .cihuy {
+    margin-top: 80px;
+  }
+}
+.Tentang {
+  width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .herobtn {
+    margin-bottom: 25px;
+  }
+  .longbtn {
+    margin-right: 30px;
+  }
 }
